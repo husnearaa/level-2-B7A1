@@ -87,8 +87,8 @@ class Student extends Person{
     super(name,age)
     this.grade=grade
   }
-  getDetails(){
-    return Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}
+  getDetails() {
+    return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
 
